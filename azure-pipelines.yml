@@ -32,5 +32,5 @@ steps:
     csmParametersFile: '$(Build.ArtifactStagingDirectory)/azuredeploy.parameters.json'
     overrideParameters: '-siteName $(siteName) -administratorLogin $(adminUser) -administratorLoginPassword $(ARM_PASS)'
     deploymentMode: 'Incremental'
-    deploymentName: 'test'
+    deploymentName: 'template deployed'
     addSpnToEnvironment: true
